@@ -5,6 +5,12 @@ Access to IMDB through imdbapi.org. Note that I am not affiliated with IMDB, imd
 
 Basically, because of the restrictions on imdbapi.org, this gem CANNOT be used for profit in any way.
 
+usage
+====
+
+    ImdbApi::Search.by_id(1) # {title: 'Carmencita', imdb_id: 'tt0000001', ...}
+    ImdbApi::Search.by_title('Carmencita', limit: 5) # [{title: 'Carmencita'...} ...]
+
 contributing
 ====
 
