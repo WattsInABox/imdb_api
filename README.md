@@ -1,4 +1,4 @@
-imdb
+imdb_api
 ====
 
 Access to IMDB through imdbapi.org. Note that I am not affiliated with IMDB, imdb.com, or imdbapi.org. This product is release under the GNU V3 License. If you don't know what that means, read the license file.
